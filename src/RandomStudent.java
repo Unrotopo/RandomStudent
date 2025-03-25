@@ -11,7 +11,7 @@ public class RandomStudent {
 
     public void getRandomStudent() {
 
-        while (students.size() >= 0) {
+        while (students.size() > 0) {
 
             System.out.println("To get a student press any key.");
             sc.nextLine();
